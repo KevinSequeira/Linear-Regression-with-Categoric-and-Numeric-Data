@@ -52,14 +52,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 subprocess.call(["pip", "install", "imblearn"])
-from imblearn.over_sampling import SMOTE
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import roc_curve, auc
 ## ==================================================================================== ##
 ## ==================================================================================== ##
 
